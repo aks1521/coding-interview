@@ -1,9 +1,9 @@
 function sumAllPrimes(num: number): number {
-  let isPrimeNumber;
-  let result=0;
-  for(let intermediateNumber=2; intermediateNumber<=num; intermediateNumber++){
+  let isPrimeNumber: boolean;
+  let result: number=0;
+  for(let intermediateNumber: number=2; intermediateNumber<=num; intermediateNumber++){
     isPrimeNumber=true;
-    for(let i=2; i<= Math.floor(Math.sqrt(intermediateNumber)); i++){
+    for(let i: number=2; i<= Math.floor(Math.sqrt(intermediateNumber)); i++){
         if(intermediateNumber%i==0){
             isPrimeNumber=false;
             break;
