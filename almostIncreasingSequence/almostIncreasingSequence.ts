@@ -1,3 +1,4 @@
+//TO-DO  -- Not Implemented Properly
 function almostIncreasingSequence(sequence: number[]): boolean {
     let lastMin = sequence[0];
     let firstOrLess = true;

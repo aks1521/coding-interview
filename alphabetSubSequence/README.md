@@ -1,15 +1,14 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ---
 Check whether the given string is a subsequence of the plaintext alphabet.
 
 **Example**
 
-- For s = "effg" or s = "cdce", the output should be
-alphabetSubsequence(s) = false
+- For inputString = "effg" or inputString = "cdce", the output should be
+alphabetSubsequence(inputString) = false
 
-- For s = "ace" or s = "bxz", the output should be
-alphabetSubsequence(s) = true.
+- For inputString = "ace" or inputString = "bxz", the output should be
+alphabetSubsequence(inputString) = true.
 
 **Hints**
 -   size property

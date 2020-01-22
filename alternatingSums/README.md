@@ -1,6 +1,4 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/intro/level-4/cC5QuL9fqvZjXJsW9)
 ---
 Several people are standing in a row and need to be divided into two teams. The first person goes into team 1, the second goes into team 2, the third goes into team 1 again, the fourth into team 2, and so on.
 
