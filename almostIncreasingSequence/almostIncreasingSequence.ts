@@ -1,17 +1,19 @@
 function almostIncreasingSequence(sequence: number[]): boolean {
-    let lastMin = sequence[0];
-    let firstOrLess = true;
+    let countWhenNextSequenceNumberIsSame:number=0;
+    let countWhenNextSequenceNumberIsLess:number=0;
 
-    for (let i = 1; i < sequence.length; i++) {
-        if (sequence[i] <= sequence[i-1]) {
-            if (!firstOrLess) { return false }
-            firstOrLess = false;
-            lastMin = sequence[i-1];
-        } else { 
-            lastMin = sequence[i-1]; 
-        }
+    for(let i :number=0; i<sequence.length; i++){
+         if(sequence[i]==sequence[i+1]){
+             countWhenNextSequenceNumberIsSame++;
+         }
+         else if(sequence[i]>sequence[i+1]){
+            countWhenNextSequenceNumberIsLess++;
+         }
     }
 
+    if(countWhenNextSequenceNumberIsSame+countWhenNextSequenceNumberIsLess>1){
+        return false;
+    }
     return true;
 }
 
