@@ -1,11 +1,9 @@
 function add(...params: number[]): number {
-
-    let sumVal = 0;
-    params.forEach(element => {
-        sumVal += element;
+    let total:number=0;
+    params.forEach(num=>{
+      total+=num;
     });
-
-    return sumVal;
+    return total;
 }
 
 console.log(add(1, 2, 4, 5));
