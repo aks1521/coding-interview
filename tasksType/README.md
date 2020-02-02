@@ -1,6 +1,4 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/company-challenges/asana/2vJMZnQzdkkhCvmxs)
 ---
 You have some tasks in your Asana account. For each ith of them you know its deadlinesi, which is the last day by which it should be completed. As you can see in your calendar, today's date is day. Asana labels each task in accordance with its due date:
 

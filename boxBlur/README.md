@@ -1,6 +1,4 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
-##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/intro/level-5/5xPitc3yT3dqS7XkP)
 ---
 Last night you had to study, but decided to party instead. Now there is a black and white photo of you that is about to go viral. You cannot let this ruin your reputation, so you want to apply box blur algorithm to the photo to hide its content.
 
